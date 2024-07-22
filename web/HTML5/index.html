@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML5 Late Night</title>
+
+    <meta name="discription" content="The HTML5 tutorail for beginner developers who want to start development career">
+
+    <link rel="stylesheet" href="https://fonts.gooleapis.com/css2?family=bebas+Neue&family=open+Sans:wght@400; 700&display=swap">
+    
+    <!-- socail media optimizing -->
+
+    <style>
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: #423939;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+
+
+        p,
+        a,
+        li {
+            padding: auto;
+            margin: auto;
+        }
+
+        /*
+         *font 
+         *Layout
+         */
+        
+         h1,
+         h2,
+         h3,
+         h4 {
+            font-family: "Bebase Neue", Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            letter-spacing: 1;
+         }
+
+         h1 {
+            font-size: 3.5em;
+         }
+
+         h2 {
+            font-size: 3em;
+         }
+
+         h3 {
+            font-size: 2em;
+         }
+
+         p,
+         a,
+         li,
+         button {
+            font-family: "Open Sans", Arial, Helvetica, sans-serif;
+            font-size: 1em;
+         }
+
+         p,
+         li {
+            color: #343440;
+         }
+
+         a {
+            color: #8C2730;
+            text-decoration: none;
+         }
+
+         a:hover{
+            color: #D9D8D2;
+            transition: ease 1s;
+         }
+
+         a:visited{
+
+            color: #BF454F;
+         }
+
+         button {
+            border: none;
+            background-color: #423939;
+            color: #ffffff;
+            padding: .5em 1.5em;
+            margin-top: 1em;
+         }
+
+         button:hover {
+            background-color: aliceblue;
+            transition: ease .5s;
+            cursor: pointer;
+         }
+
+         input[type="text"],
+         input[type="email"],
+         input[type="tell"],
+         textarea {
+            outline: none;
+            border: 1px solid #591419;
+            display: block;
+         }
+
+         #page {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+         }
+
+         header {
+            display: flex;
+            align-items: center;
+         }
+
+         #brand-logo {
+            padding-left: 1.5em;
+         }
+
+         #brand-logo h1 {
+            font-size: 2em;
+         }
+
+         nav {
+            margin-left: auto;
+         }
+
+         nav li {
+            list-style: none;
+            display: inline-block;
+            padding: 0.5em 1.5em;
+         }
+
+         #home {
+            display: flex;
+            align-items: center;
+         }
+
+         #site-headline {
+            position: absolute;
+            padding-left: 1.5em;
+         }
+
+         #site-headline h2,
+         #site-headlind p {
+            color: #FFFFFF;
+            line-height: 1;
+         }
+
+         #site-headline h2 {
+            font-size: 4.5em;
+         }
+
+         #headline-large {
+
+            font-size: 1.2em;
+            letter-spacing: 4px;
+         }
+
+         #site-headline p {
+            font-size: 1.2em;
+
+         }
+
+         #hero-banner img{
+            width: 100%;
+
+         }
+
+         .container {
+            padding: 2em;
+         }
+
+         .sub-title {
+            font-size: 1.2em;
+            width: 80%;
+         }
+
+         #services h2,
+         #services p, 
+         #portfolios h2,
+         #portfolios p {
+            text-align: center;
+         }
+
+         #services-wraper,
+         #portfolio-wraper {
+            display: flex;
+            margin-top: 2em;
+         }
+
+         #services-wraper aside {
+            text-align: center;
+            padding: .5em;
+         }
+
+         #portfolio-wraper aside{
+            display: block;
+            width: 25%;
+            position: relative;
+         }
+
+         .portfolio-heading {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, .7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+         }
+
+         .portfolio-heading h3,
+         .portfolio-heading p {
+            color: #FFFFFF;
+            text-align: center;
+            margin: .1em;
+         }
+
+         .portfolio-heading h3 {
+            font-size: 1em;
+         }
+
+         #portfolio-wraper img {
+            width: 100%;
+         }
+
+/* Color Theme Swatches in Hex */
+.color-theme_download-1-hex { color: #591419; }
+.color-theme_download-2-hex { color: #8C2730; }
+.color-theme_download-3-hex { color: #BF454F; }
+.color-theme_download-4-hex { color: #343440; }
+.color-theme_download-5-hex { color: #D9D8D2; }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div id="brand-logo">
+                <h1>Leader WebDev</h1>
+            </div>
+            <nav id="primary-nav" role="navigation">
+
+                <ul>
+                    <li class="nav-items">
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-items"></li>
+
+                    <li id="nav-items">
+                        <a href=""></a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="#portfolios">Portfolios</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="#get-intouch">Get Intouch</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section id="home">
+
+                <div id="site-headline" class="container">
+
+                    <h2 id="site-message"><span id="headline-large">Me building you</span><br> a reached purposes website</h2>
+
+                    <p id="site-tagline">No only make your website <strong>I Kiss U</strong>, but also make it convertable</p>
+
+                </div>
+
+                <div id="hero-banner">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfeN6jVFoLR4gwd-Yx9Srz5YfNzAAzeiy9w&s" alt="" width="100%">
+
+                </div>
+
+            </section>
+
+            <section id="Services">
+
+                <div class="container">
+
+                    <h2>Web and App development services</h2>
+
+                    <p class="sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                    <div id="Services-wraper">
+
+                        <aside id="weeb development" class="Services">
+
+                            <h3>web development</h3>
+
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                            <button>Learn more</button>
+
+                        </aside>
+
+                        <aside id="app-development" class="Services">
+                            
+                        </aside>
+
+                    
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="Portfolios">
+
+                <div class="container">
+
+                    <h2>Our Work</h2>
+                    <p class="sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div id="footer-widget" class="container">
+
+                <aside>
+
+                    <h3>Company</h3>
+
+                    <ul>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Guidelines</li>
+                        <li>privacy</li>
+                    </ul>
+
+                </aside>
+            </div>
+
+            <div id="copyright" class="container">
+
+                <p>&copy; Leaderdev</p>
+
+            </div>
+        </footer>
+    </div> <!--#page-->
+
+</body>
+
+</html>

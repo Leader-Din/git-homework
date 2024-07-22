@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+    font-family: font-variant;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-family: font-variant;
+}
+body {
+    background-color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+table{
+    width: 100%;
+}
+th{
+    align-items: center;
+    background-color: aqua;
+}
+td{
+    text-align: center;
+}

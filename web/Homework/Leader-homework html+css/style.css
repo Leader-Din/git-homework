@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+p {
+    font-family: Arial;
+}
+h2 {
+    font-family: Comic Sans MS;
+}
+h3 {
+    font-family: Comic Sans MS;
+}
+.hr {
+    height: 3px;
+    background: rgba(0, 0, 255, 0.514);
+    width: 100%;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.349);
+}

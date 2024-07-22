@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    color: pink;
+    background-color: black;
+}
+.main-content{
+    text-align: center;
+    color: lightblue;
+    background-color: black;
+    margin-top: 10px;
+}
+.footer {
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    margin-top: 10px;border: 2px solid blue;
+    font-style: italic;
+
+}

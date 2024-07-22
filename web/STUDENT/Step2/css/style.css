@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    color: white;
+    font-size: large;
+}
+p{
+    color: orange;
+    font-size: large;
+}
+h2{
+    font-size: large;
+}
+div {
+    border: 1px solid white;
+    margin-top: 10px;
+    padding-inline-start: 10px;
+}

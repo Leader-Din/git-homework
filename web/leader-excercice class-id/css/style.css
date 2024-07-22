@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+.header{
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 10px;
+}
+#intro {
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+    border-top: 3px solid black;
+}
+#features{
+    background-color: lightgreen;
+    padding: 10px;
+    margin-top: 10px;
+}
+.footer {
+    background-color: lightcoral;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}

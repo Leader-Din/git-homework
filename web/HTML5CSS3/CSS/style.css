@@ -1,0 +1,29 @@
+
+.good {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+img:hover {
+    background-color: red;
+    width: 210px;
+    height: 210px;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg);
+}
+@media only screen and (max-width: 600px) {
+    img{
+        height: 200px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+}

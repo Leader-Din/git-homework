@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #000;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#brand-logo {
+    padding-left: 1.5em;
+}
+
+#brand-logo h1 {
+    font-size: 2em;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5em 0.5em;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+#other {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+div img {
+    width: 250px;
+    height: 250px;
+    border: 2x solid peru;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+div img:hover {
+    filter: sepia(1);
+    transform: scale(1.o3);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-items,
+a {
+    font-size: 1.1em;
+}
+

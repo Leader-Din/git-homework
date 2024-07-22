@@ -1,0 +1,47 @@
+@import '/normalize.css';
+@import '/styleone.css';
+h1 {
+    color: blue;
+    font-size: 3.5em;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-size: 32px;
+    
+}
+
+#relative-size {
+    font-size: 2em;
+}
+#rem-relative-size {
+    font-size: 2rem;
+}
+
+section {
+    color: blueviolet;
+}
+
+/* 
+    I am a web developer
+
+*/
+
+h3 {
+    color: brown;
+    font-size: 3.5em;
+}
+
+.heading-id {
+    color: unset;
+}
+
+.heading {
+    color: aqua;
+}
+
+
+h2 {
+    color: yellow;
+}
